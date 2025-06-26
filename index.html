@@ -29,7 +29,38 @@ https://templatemo.com/tm-590-topic-listing
 
 -->
     </head>
-    
+      <style>
+    .partner-box {
+      position: relative;
+      padding-top: 100%; /* 1:1 aspect ratio for square */
+      background-color: transparent;
+      border: 1px solid #dee2e6;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .partner-box:hover {
+      transform: scale(1.05);
+    }
+
+    .partner-box a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .partner-box img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover ;
+    }
+  </style>
+
     <body id="top">
 
         <main>
@@ -90,56 +121,134 @@ https://templatemo.com/tm-590-topic-listing
             </nav>
             
 
-            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
+            <section class="hero-section d-flex flex-column justify-content-between text-center text-white" id="section_1" style="height: 100vh;">
+                <div></div> <!-- Empty top spacer -->
 
-                        <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">广州市鑫山进出口有限公司</h1>
+                <div class="title">
+                    <h1>广州市鑫山进出口有限公司</h1>
+                    <h6 style="color: white;">Guangzhou XinShan Import and Export Co., Ltd.</h6>
+                </div>
 
-                            <h6 class="text-center">Guangzhou XinShan Import and Export Co., Ltd.</h6>
-
-                            <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
-                                <div class="input-group input-group-lg">
-                                    <span class="input-group-text bi-search" id="basic-addon1">
-                                        
-                                    </span>
-
-                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="输入关键词，如“糖果出口”或“机械进口”" aria-label="Search">
-
-                                    <button type="submit" class="form-control">必应搜索</button>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
+                <div class="mb-4">
+                    <!-- <small>Scroll down for more</small> -->
                 </div>
             </section>
 
 
+
+
+            <section class="container py-5">
+  <h2 class="text-center mb-4">合作伙伴</h2>
+  <div class="row g-3">
+    <!-- Repeat this block for each partner (12 total) -->
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://www.nestle.com.cn/" target="_blank">
+          <img src="images/partners/nestle.png" alt="Nestle">
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://www.cnpc.com.cn/" target="_blank">
+          <img src="images/partners/Petrochina_logo.svg" alt="Partner 2">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner3.com" target="_blank">
+          <img src="images/partner3-logo.png" alt="Partner 3">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner4.com" target="_blank">
+          <img src="images/partner4-logo.png" alt="Partner 4">
+        </a>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner5.com" target="_blank">
+          <img src="images/partner5-logo.png" alt="Partner 5">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner6.com" target="_blank">
+          <img src="images/partner6-logo.png" alt="Partner 6">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner7.com" target="_blank">
+          <img src="images/partner7-logo.png" alt="Partner 7">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner8.com" target="_blank">
+          <img src="images/partner8-logo.png" alt="Partner 8">
+        </a>
+      </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner9.com" target="_blank">
+          <img src="images/partner9-logo.png" alt="Partner 9">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner10.com" target="_blank">
+          <img src="images/partner10-logo.png" alt="Partner 10">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner11.com" target="_blank">
+          <img src="images/partner11-logo.png" alt="Partner 11">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 col-lg-2">
+      <div class="partner-box">
+        <a href="https://partner12.com" target="_blank">
+          <img src="images/partner12-logo.png" alt="Partner 12">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
             <section class="featured-section">
                 <div class="container">
                     <div class="row justify-content-center">
-
-                        <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                            <div class="custom-block bg-white shadow-lg">
-                                <a href="topics-detail.html">
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Web Design</h5>
-
-                                            <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
-                                    </div>
-
-                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
-                                </a>
-                            </div>
+                        <div class="col-12 text-center">
+                            <!-- <h2 class="mb-4">合作伙伴</h1> -->
                         </div>
 
-                        <div class="col-lg-6 col-12">
+                        <!-- <div class="col-lg-6 col-12">
                             <div class="custom-block custom-block-overlay">
                                 <div class="d-flex flex-column h-100">
                                     <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
@@ -179,8 +288,7 @@ https://templatemo.com/tm-590-topic-listing
                                     <div class="section-overlay"></div>
                                 </div>
                             </div>
-                        </div>
-
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -659,8 +767,8 @@ https://templatemo.com/tm-590-topic-listing
                             <p class="d-flex align-items-center mb-1">
                                 <span class="me-2">联系电话</span>
 
-                                <a href="tel: 305-240-9671" class="site-footer-link">
-                                    305-240-9671
+                                <a href="tel:+8613933586818" class="site-footer-link">
+                                    139-3358-6818
                                 </a>
                             </p>
 
@@ -738,7 +846,7 @@ https://templatemo.com/tm-590-topic-listing
                         <h6 class="site-footer-title mb-3">更多信息</h6>
 
                         <p class="text-white d-flex mb-1">
-                            <a href="tel: 13933586818" class="site-footer-link">
+                            <a href="tel:+8613933586818" class="site-footer-link">
                                 (+86) 13933586818
                             </a>
                         </p>
@@ -757,10 +865,6 @@ https://templatemo.com/tm-590-topic-listing
 
                             <ul class="dropdown-menu">
                                 <li><button class="dropdown-item" type="button">English</button></li>
-
-                                <!-- <li><button class="dropdown-item" type="button">Myanmar</button></li>
-
-                                <li><button class="dropdown-item" type="button">Arabic</button></li> -->
                             </ul>
                         </div>
 

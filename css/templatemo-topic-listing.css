@@ -485,12 +485,28 @@ strong {
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
-.hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+/* .hero-section {
+  background-image: ('../images/port_background.jpg');
   position: relative;
   overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
+} */
+.hero-section {
+  padding-top: 150px;
+  padding-bottom: 200px;
+  background-image: url('../images/pexels-wolfgang-weiser-467045605-27603790.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section .title {
+  position: absolute; 
+  top: 10%;
 }
 
 .hero-section .input-group {
